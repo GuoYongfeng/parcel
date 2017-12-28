@@ -1,4 +1,7 @@
-// 导入另一个组件
-import main from './main';
+import React, { Component } from 'react'
+import { render } from 'react-dom'
 
-main();
+import Main from './routes/Main.js';
+
+render(<Main />,
+  document.getElementById('app'))

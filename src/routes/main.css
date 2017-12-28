@@ -1,6 +1,6 @@
 .main {
   /* 引用一个 image 文件 */
-  background: url('./imgs/parcel-front.png') no-repeat;
+  background: url('../assets/imgs/parcel-front.png') no-repeat;
   color: red;
   width: 100%;
   height: 500px;
